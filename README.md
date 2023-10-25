@@ -27,8 +27,8 @@ For detailed instructions on installing each library, please follow the links be
 ##### 1. Install Required Libraries
 
 1. **GLFW**: [Download](https://www.glfw.org/download.html) and install.
-2. **GLAD**: Generate a loader from [GLAD's website](https://glad.dav1d.de/), then include it in your project.
-3. **GLM**: Clone or [download](https://github.com/g-truc/glm) and include it in your project.
+2. **GLAD**: For an in-depth guide on setting up GLAD, please refer to [GLAD_Setup.md](GLAD_Setup.md).
+3. **GLM**: For an in-depth guide on including GLM in your project, please refer to [GLM_Setup.md](GLM_Setup.md).
 
 ##### 2. Set Up Your Project
 
