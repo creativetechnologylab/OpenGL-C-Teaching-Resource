@@ -28,7 +28,7 @@ void WaitForNextFrame() {
 	}
 }
 
-// Main function where the magic happens
+// Main function where we setup and initiate the render loop
 int main() {
 	// === Initialization ===
 	// Initialize GLFW, which manages windows and user input
