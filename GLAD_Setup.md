@@ -1,7 +1,6 @@
 
 ### GLAD_Setup.md
 
-```markdown
 # GLAD Setup Guide for OpenGL C++ Teaching Resource
 
 This guide provides detailed instructions on how to set up GLAD (OpenGL Loader-Generator) for your OpenGL project.
