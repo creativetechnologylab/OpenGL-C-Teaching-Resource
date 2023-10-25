@@ -63,9 +63,4 @@ For a more detailed explanation, please refer to the inline comments in the `mai
 #### Concluding Remarks
 
 This is a simple example, but it forms the basis of almost every 2D and 3D application. Feel free to expand upon it and explore more advanced OpenGL features.
-
-Happy Learning!
-
 ---
-
-That should cover most of what you want to include in your GitHub repository README. It's important to be thorough to make the resource as beneficial as possible for your students.
