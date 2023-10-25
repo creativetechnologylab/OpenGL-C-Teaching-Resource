@@ -137,5 +137,3 @@ For more in-depth information, you can consult the [OpenGL wiki on Element Buffe
 
 By gaining a firm understanding of how buffers and indexed drawing work in OpenGL, you can optimize your applications and prepare for more advanced graphical tasks.
 ```
-
-Feel free to copy and paste this into your README.md file.
