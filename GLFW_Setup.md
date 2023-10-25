@@ -1,5 +1,7 @@
 # GLFW Setup Guide for OpenGL C++ Teaching Resource
 
+This guide provides detailed instructions on how to set up GLFW (Graphics Library Framework) for your OpenGL project when using the C++ options in Visual Studio.
+
 ## Steps to Include GLFW in Your Project
 
 ### Step 1: Download GLFW
@@ -16,21 +18,27 @@
 1. Copy the include files into your project's include directory.
 2. Copy the library files (`.lib` for Windows) into your project's library directory.
 
-   For a more in-depth guide on adding include and library files in Visual Studio, please refer to this [official guide](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties?view=msvc-160).
-
 ### Step 4: Link Libraries
 
-In your project settings:
+#### Creating a Library Directory
 
-1. Add the include directory to your compiler's include directories.
-2. Add the library directory to your linker's library directories.
-3. Link against `glfw3.lib` (for Windows).
+1. **Create a new folder** in your project directory to hold the library files. You could name it something like `libs`.
+2. **Copy the library files** (e.g., `glfw3.lib`) into this newly created `libs` directory.
 
-   For a detailed video tutorial on how to link libraries in Visual Studio 2019 or above, please refer to this [official Microsoft video](#) (Link TBD).
+#### Updating Project Properties
 
-### Step 5: Use GLFW in Your Code
+1. **Right-click on your project** in the Solution Explorer and choose **Properties**.
+2. **Navigate to C/C++ Build** > **Settings** (The exact path might differ depending on the version of Visual Studio).
 
-To use GLFW, include it like any other header:
+    - Under **Include Directories**, add the path to your `include` directory.
+    - Under **Library Directories**, add the path to your `libs` directory where the `.lib` files are stored.
 
-```cpp
-#include <GLFW/glfw3.h>
+#### Linking the Libraries
+
+1. Still in the **Properties** window, navigate to **C/C++ Build** > **Settings** > **Tool Settings** > **Linker** > **Libraries**.
+2. Under **Libraries(-l)**, add the name of the library you want to link against without the `.lib` extension (e.g., `glfw3`).
+3. Under **Library Search Path(-L)**, add the path to your `libs` directory.
+
+#### Save and Apply Changes
+
+1. Click **Apply** and then **OK** to save all the changes you've made in the **Properties** window.
