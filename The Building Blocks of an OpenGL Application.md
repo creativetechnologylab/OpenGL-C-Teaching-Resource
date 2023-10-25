@@ -1,7 +1,3 @@
-Certainly, an article-style explanation can provide more context and insights. Here's how the code can be understood at a high level:
-
----
-
 # Understanding the Building Blocks of an OpenGL Application in C++
 
 OpenGL is a widely used API for rendering 2D and 3D graphics. This article will help you understand an example OpenGL application that performs simple 2D rendering. The code is written in C++ and makes use of libraries like GLFW, Glad, and GLM.
