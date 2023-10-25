@@ -17,6 +17,8 @@ This guide provides detailed instructions on how to set up GLFW (Graphics Librar
 
 1. Copy the include files into your project's include directory.
 2. Copy the library files (`.lib` for Windows) into your project's library directory.
+   
+   For a more in-depth guide on adding include and library files in Visual Studio, please refer to this [guide](https://docs.microsoft.com/en-us/cpp/build/working-with-project-properties?view=msvc-160).
 
 ### Step 4: Link Libraries
 
@@ -25,6 +27,8 @@ In your project settings:
 1. Add the include directory to your compiler's include directories.
 2. Add the library directory to your linker's library directories.
 3. Link against `glfw3.lib` (for Windows).
+
+   For a detailed video tutorial on how to link libraries in Visual Studio 2019 or above, please watch [this video](https://www.youtube.com/watch?v=r_wf9xphKyg).
 
 ### Step 5: Use GLFW in Your Code
 
