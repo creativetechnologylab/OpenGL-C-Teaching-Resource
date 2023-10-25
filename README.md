@@ -22,12 +22,6 @@ For detailed instructions on installing each library, please follow the links be
 - `vertex.glsl`: The vertex shader file.
 - `fragment.glsl`: The fragment shader file.
 
-#### Step-by-Step Setup
-
-##### 1. Install Required Libraries
-# README for OpenGL C++ Teaching Resource
-...
-
 ## Step-by-Step Setup
 
 ### 1. Install Required Libraries
