@@ -1,6 +1,6 @@
 # GLFW Setup Guide for OpenGL C++ Teaching Resource
 
-This guide provides detailed instructions on how to set up GLFW (Graphics Library Framework) for your OpenGL project when using the C++ options in Visual Studio.
+This guide provides detailed instructions on how to set up GLFW (Graphics Library Framework) for your OpenGL project when using Visual Studio.
 
 ## Steps to Include GLFW in Your Project
 
@@ -28,16 +28,10 @@ This guide provides detailed instructions on how to set up GLFW (Graphics Librar
 #### Updating Project Properties
 
 1. **Right-click on your project** in the Solution Explorer and choose **Properties**.
-2. **Navigate to C/C++ Build** > **Settings** (The exact path might differ depending on the version of Visual Studio).
+2. Navigate to the **Linker** tab:
 
-    - Under **Include Directories**, add the path to your `include` directory.
-    - Under **Library Directories**, add the path to your `libs` directory where the `.lib` files are stored.
-
-#### Linking the Libraries
-
-1. Still in the **Properties** window, navigate to **C/C++ Build** > **Settings** > **Tool Settings** > **Linker** > **Libraries**.
-2. Under **Libraries(-l)**, add the name of the library you want to link against without the `.lib` extension (e.g., `glfw3`).
-3. Under **Library Search Path(-L)**, add the path to your `libs` directory.
+    - Under **General**, find the **Additional Library Directories** field and add the path to your `libs` directory where the `.lib` files are stored.
+    - Under **Input**, find the **Additional Dependencies** field and add the name of the library file you want to link against (e.g., `glfw3.lib`).
 
 #### Save and Apply Changes
 
