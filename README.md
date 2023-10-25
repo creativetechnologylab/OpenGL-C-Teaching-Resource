@@ -25,9 +25,17 @@ For detailed instructions on installing each library, please follow the links be
 #### Step-by-Step Setup
 
 ##### 1. Install Required Libraries
+# README for OpenGL C++ Teaching Resource
+...
 
-1. **GLFW**: [Download](https://www.glfw.org/download.html) and install.
-2. **GLAD**: For an in-depth guide on setting up GLAD, please refer to [GLAD_Setup.md](GLAD_Setup.md).
+## Step-by-Step Setup
+
+### 1. Install Required Libraries
+
+For detailed instructions on installing each library, please follow the links below:
+
+1. **GLFW**: For an in-depth guide on setting up and linking GLFW, please refer to [GLFW_Setup.md](GLFW_Setup.md).
+2. **GLAD**: For an in-depth guide on setting up and linking GLAD, please refer to [GLAD_Setup.md](GLAD_Setup.md).
 3. **GLM**: For an in-depth guide on including GLM in your project, please refer to [GLM_Setup.md](GLM_Setup.md).
 
 ##### 2. Set Up Your Project
